@@ -163,6 +163,15 @@ Song getSong(String songName) {
   else if (songName == "brahmslullaby") { return BrahmsLullaby(BUZZER_PIN); }
   else if (songName == "starwarscantina") { return StarWarsCantina(BUZZER_PIN); }
   else if (songName == "furelise") { return FurElise(BUZZER_PIN); }
+  else if (songName == "greenhill") { return GreenHill(BUZZER_PIN); }
+  else if (songName == "greensleeves") { return GreenSleeves(BUZZER_PIN); }
+  else if (songName == "happybirthday") { return HappyBirthday(BUZZER_PIN); }
+  else if (songName == "imperialmarch") { return ImperialMarch(BUZZER_PIN); }
+  else if (songName == "jigglypuffssong") { return JigglypuffsSong(BUZZER_PIN); }
+  else if (songName == "keyboardcat") { return KeyboardCat(BUZZER_PIN); }
+  else if (songName == "miichanneltheme") { return MiiChannelTheme(BUZZER_PIN); }
+  else if (songName == "minueting") { return MinuetInG(BUZZER_PIN); }
+  else if (songName == "nevergonnagiveyouup") { return NeverGonnaGiveYouUp(BUZZER_PIN); }
 }
 
 void configureUrlRoutes() {

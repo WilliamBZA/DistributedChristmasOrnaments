@@ -83,4 +83,49 @@ class FurElise : public Song {
   public:
     FurElise(int buzzPin);
 };
+
+class GreenHill : public Song {
+  public:
+    GreenHill(int buzzPin);
+};
+
+class GreenSleeves : public Song {
+  public:
+    GreenSleeves(int buzzPin);
+};
+
+class HappyBirthday : public Song {
+  public:
+    HappyBirthday(int buzzPin);
+};
+
+class ImperialMarch : public Song {
+  public:
+    ImperialMarch(int buzzPin);
+};
+
+class JigglypuffsSong : public Song {
+  public:
+    JigglypuffsSong(int buzzPin);
+};
+
+class KeyboardCat : public Song {
+  public:
+    KeyboardCat(int buzzPin);
+};
+
+class MiiChannelTheme : public Song {
+  public:
+    MiiChannelTheme(int buzzPin);
+};
+
+class MinuetInG : public Song {
+  public:
+    MinuetInG(int buzzPin);
+};
+
+class NeverGonnaGiveYouUp : public Song {
+  public:
+    NeverGonnaGiveYouUp(int buzzPin);
+};
 #endif

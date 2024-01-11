@@ -179,3 +179,48 @@ FurElise::FurElise(int buzzPin) : Song(buzzPin, new int [37] { 37,
   NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_B4, NOTE_D5, NOTE_C5, NOTE_A4, NOTE_C4, NOTE_E4, NOTE_A4, NOTE_B4, NOTE_E4, NOTE_GS4, NOTE_B4, NOTE_C5, REST, NOTE_E4, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_DS5, NOTE_E5, NOTE_B4, NOTE_D5, NOTE_C5, NOTE_A4, NOTE_C4, NOTE_E4, NOTE_A4, NOTE_B4, NOTE_E4, NOTE_C5, NOTE_B4, NOTE_A4
 }, new int [36] { 8, 8, 8, 8, 8, 8, 8, 8, -4, 8, 8, 8, -4, 8, 8, 8, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, -4, 8, 8, 8, -4, 8, 8, 8, 2 }) {
 };
+
+GreenHill::GreenHill(int buzzPin) : Song(buzzPin, new int [37] { 37,
+  REST, NOTE_D5, NOTE_B4, NOTE_D5, NOTE_CS5, NOTE_D5, NOTE_CS5, NOTE_A4, REST, NOTE_A4, NOTE_FS5, NOTE_E5, NOTE_D5, NOTE_CS5, NOTE_D5, NOTE_CS5, NOTE_A4, REST, NOTE_D5, NOTE_B4, NOTE_D5, NOTE_CS5, NOTE_D5, NOTE_CS5, NOTE_A4, REST, NOTE_B4, NOTE_B4, NOTE_G4, NOTE_B4, NOTE_A4, NOTE_B4, NOTE_A4, NOTE_D4, REST, NOTE_D5
+}, new int [36] { 2, 7, 4, 7, 4, 7, 4, 2, 7, 7, 7, 4, 7, 4, 7, 4, 2, 4, 7, 4, 7, 4, 7, 4, 2, 7, 7, 7, 4, 7, 4, 7, 4, 2, 4, 7 }) {
+};
+
+GreenSleeves::GreenSleeves(int buzzPin) : Song(buzzPin, new int [37] { 37,
+  NOTE_G4, NOTE_AS4, NOTE_C5, NOTE_D5, NOTE_DS5, NOTE_D5, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_AS4, NOTE_G4, NOTE_G4, NOTE_FS4, NOTE_G4, NOTE_A4, NOTE_FS4, NOTE_D4, NOTE_G4, NOTE_AS4, NOTE_C5, NOTE_D5, NOTE_DS5, NOTE_D5, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_AS4, NOTE_A4, NOTE_G4, NOTE_FS4, NOTE_E4, NOTE_FS4
+}, new int [36] { 4, 2, 4, -4, 7, 4, 2, 4, -4, 7, 4, 2, 4, -4, 7, 4, 2, 4, 2, 4, 2, 4, -4, 7, 4, 2, 4, -4, 7, 4, -4, 7, 4, -4, 7, 4 }) {
+};
+
+HappyBirthday::HappyBirthday(int buzzPin) : Song(buzzPin, new int [26] { 26,
+  NOTE_C4, NOTE_C4, NOTE_D4, NOTE_C4, NOTE_F4, NOTE_E4, NOTE_C4, NOTE_C4, NOTE_D4, NOTE_C4, NOTE_G4, NOTE_F4, NOTE_C4, NOTE_C4, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_E4, NOTE_D4, NOTE_AS4, NOTE_AS4, NOTE_A4, NOTE_F4, NOTE_G4, NOTE_F4
+}, new int [25] { 4, 7, -4, -4, -4, -2, 4, 7, -4, -4, -4, -2, 4, 7, -4, -4, -4, -4, -4, 4, 7, -4, -4, -4, -2 }) {
+};
+
+ImperialMarch::ImperialMarch(int buzzPin) : Song(buzzPin, new int [35] { 35,
+  NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_F4, REST, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_F4, REST, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_F5, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4
+}, new int [34] { -3, -3, 12, 12, 12, 12, 6, 6, -3, -3, 12, 12, 12, 12, 6, 6, 3, 3, 3, -6, 9, 3, -6, 9, 2, 3, 3, 3, -6, 9, 3, -6, 9, 2 }) {
+};
+
+JigglypuffsSong::JigglypuffsSong(int buzzPin) : Song(buzzPin, new int [39] { 39,
+  NOTE_D5, NOTE_A5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_FS5, NOTE_E5, NOTE_FS5, NOTE_D5, NOTE_D5, NOTE_A5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_FS5, NOTE_D5, NOTE_A5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_FS5, NOTE_E5, NOTE_FS5, NOTE_D5, NOTE_D5, NOTE_A5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_FS5
+}, new int [38] { -2, 4, 4, 4, -2, 4, 2, -2, 4, 2, -1, -2, 4, 4, 4, -2, 4, 2, -1, -2, 4, 4, 4, -2, 4, 2, -2, 4, 2, -1, -2, 4, 4, 4, -2, 4, 2, -1 }) {
+};
+
+KeyboardCat::KeyboardCat(int buzzPin) : Song(buzzPin, new int [37] { 37,
+  REST, REST, NOTE_C4, NOTE_E4, NOTE_G4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_G4, NOTE_E4, NOTE_A3, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_A3, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_G3, NOTE_B3, NOTE_D4, NOTE_B3, NOTE_G3, NOTE_B3, NOTE_D4, NOTE_B3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_G3, NOTE_C4
+}, new int [36] { 1, 1, 4, 4, 4, 4, 4, 8, -4, 4, 4, 4, 4, 4, 4, 8, -4, 4, 4, 4, 4, 4, 4, 8, -4, 4, 4, 8, -4, 8, 4, 4, 4, 8, 4, 4 }) {
+};
+
+MiiChannelTheme::MiiChannelTheme(int buzzPin) : Song(buzzPin, new int [52] { 52,
+  NOTE_FS4, REST, NOTE_A4, NOTE_CS5, REST, NOTE_A4, REST, NOTE_FS4, NOTE_D4, NOTE_D4, NOTE_D4, REST, REST, REST, NOTE_CS4, NOTE_D4, NOTE_FS4, NOTE_A4, NOTE_CS5, REST, NOTE_A4, REST, NOTE_F4, NOTE_E5, NOTE_DS5, NOTE_D5, REST, REST, NOTE_GS4, REST, NOTE_CS5, NOTE_FS4, REST, NOTE_CS5, REST, NOTE_GS4, REST, NOTE_CS5, NOTE_G4, NOTE_FS4, REST, NOTE_E4, REST, NOTE_E4, NOTE_E4, NOTE_E4, REST, REST, NOTE_E4, NOTE_E4, NOTE_E4
+}, new int [51] { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, -3, 6, 6, 6, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 3, 6, 6, 6 }) {
+};
+
+MinuetInG::MinuetInG(int buzzPin) : Song(buzzPin, new int [65] { 65,
+  NOTE_D5, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_G4, NOTE_G4, NOTE_E5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_G4, NOTE_G4, NOTE_C5, NOTE_D5, NOTE_C5, NOTE_B4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_FS4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_G4, NOTE_A4, NOTE_D5, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_G4, NOTE_G4, NOTE_E5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_G5, NOTE_G4, NOTE_G4, NOTE_C5, NOTE_D5, NOTE_C5, NOTE_B4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_FS4, NOTE_G4
+}, new int [64] { 4, 7, 7, 7, 7, 4, 4, 4, 4, 7, 7, 7, 7, 4, 4, 4, 4, 7, 7, 7, 7, 4, 7, 7, 7, 7, 4, 7, 7, 7, 7, -2, 4, 7, 7, 7, 7, 4, 4, 4, 4, 7, 7, 7, 7, 4, 4, 4, 4, 7, 7, 7, 7, 4, 7, 7, 7, 7, 4, 7, 7, 7, 7, -2 }) {
+};
+
+NeverGonnaGiveYouUp::NeverGonnaGiveYouUp(int buzzPin) : Song(buzzPin, new int [42] { 42,
+  NOTE_D5, NOTE_E5, NOTE_A4, NOTE_E5, NOTE_FS5, NOTE_A5, NOTE_G5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_B4, NOTE_D5, NOTE_D5, NOTE_D5, NOTE_E5, NOTE_A4, NOTE_E5, NOTE_FS5, NOTE_A5, NOTE_G5, NOTE_FS5, NOTE_D5, NOTE_E5, NOTE_A4, NOTE_A4, NOTE_A4, NOTE_B4, NOTE_D5, NOTE_D5, REST, NOTE_B4, NOTE_CS5, NOTE_D5, NOTE_D5, NOTE_E5, NOTE_CS5, NOTE_B4, NOTE_A4
+}, new int [41] { -3, -3, 3, -3, -3, 11, 11, 6, -3, -3, 1, 11, 11, 11, 6, 11, -3, -3, 3, -3, -3, 11, 11, 6, -3, -3, 1, 11, 11, 11, 6, 11, 3, 6, 6, 6, 6, 6, -6, 11, 1 }) {
+};
